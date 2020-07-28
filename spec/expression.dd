@@ -46,7 +46,7 @@ circumstances:)
 $(OL
     $(LI $(I e$(SUBSCRIPT 1)) and $(I e$(SUBSCRIPT 2)) are lvalues of the same type; OR)
     $(LI One of $(I e$(SUBSCRIPT 1)) and $(I e$(SUBSCRIPT 2)) is an lvalue of type `T` and the other has
-    and `alias this` converting it to `ref T`;))
+    an `alias this` converting it to `ref T`;))
 $(LI user-defined operators if and only if the function called as a result of lowering returns
 by reference;)
 $(LI `mixin` expressions if and only if the compilation of the expression resulting from compiling
